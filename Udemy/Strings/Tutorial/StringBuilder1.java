@@ -1,6 +1,4 @@
-package Udemy.Strings.Tutorial;
-
-public class StringBuilder {
+public class StringBuilder1 {
 
     public static void main(String[] args) {
 
