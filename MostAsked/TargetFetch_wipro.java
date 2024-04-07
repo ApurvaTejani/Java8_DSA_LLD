@@ -2,7 +2,7 @@ package MostAsked;
 
 import java.util.Scanner;
 
-public class TargetFetch {
+public class TargetFetch_wipro {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter the Array lenght size");
