@@ -4,27 +4,44 @@
 // altPairs("Chocolate") → "Chole"
 // altPairs("CodingHorror") → "Congrr"
 
-// ======================Incomplete======================
+// ====Completed=====
 public class altParis {
     public static void main(String[] args) {
-        altPairs("kitten");
+        System.out.println(altPairs("yak"));
     }
 
     public static String altPairs(String str) {
-
         int j = 0;
-        char[] letters = str.toCharArray();
-        char[] newLetters = new char[letters.length];
-        for (int i = 0; i < letters.length; i++) {
-            if (i % 2 != 0) {
-                newLetters[j] = letters[i];
-                j++;
+        int z = 0;
+        if (str.isEmpty()) {
+            return "";
+        }
+        if (str.length() == 1) {
+            return str;
+        }
+        String strArr[] = new String[str.length() - 1];
+        for (int i = 0; i < strArr.length; i = i + 2) {
+            strArr[j] = str.substring(i, i + 2);// 0,2 2,4
+            j++;
+        }
+
+        for (int i = 0; i < strArr.length; i++) {
+            if (i % 2 == 0) {
+                strArr[z] = strArr[i];
+                z++;
+            }
+        }
+        String str1 = "";
+        for (int i = 0; i < strArr.length; i++) {
+            if (strArr[i] != null)
+                str1 = str1.concat(strArr[i]);
+        }
+
+        if (!(str1.length() + 1 == str.length()))
+            if (str.length() % 2 == 1) {
+                str1 = str1 + str.charAt(str.length() - 1);
             }
 
-        }
-        for (int i = 0; i < newLetters.length; i++) {
-            System.out.print(newLetters[i]);
-        }
-        return " ";
+        return str1;
     }
 }
