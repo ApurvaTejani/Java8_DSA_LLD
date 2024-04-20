@@ -20,7 +20,7 @@ public class SameStarChar {
     public static boolean sameStarChar(String str) {
         ArrayList list = new ArrayList<>();
         char[] letters = str.toCharArray();
-        if (!str.contains("*"))
+        if (!str.contains("*")) // If string does not contain * then directly return true
             return true;
         for (int z = 0; z < str.length(); z++) {
             if (letters[z] == '*' && (z != 0 && z != str.length() - 1))

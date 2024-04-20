@@ -5,6 +5,8 @@ package CodingBat.Level2_String;
 // starOut("ab*cd") → "ad"
 // starOut("ab**cd") → "ad"
 // starOut("sm*eilly") → "silly"
+
+// =================================Having issues with logic===========================
 public class StarOut {
     public static void main(String[] args) {
         starOut("ab**cd");
