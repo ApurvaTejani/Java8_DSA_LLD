@@ -33,7 +33,7 @@ public class WrapperClass {
         // ===================Boxing(Wrapping)====================
         // Converting primitive data type to Onbject
         int m = 10;
-        // Integer n=Integer.valueOf(m);
+        // Integer n=Integer.valueOf(m); //boxing Wrapping
         Integer n = m; // Auto boxing
         // int p=n.intValue();
         int p = n;
