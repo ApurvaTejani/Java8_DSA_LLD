@@ -1,0 +1,25 @@
+package CodingBat.Level2_Arrays;
+
+import java.util.Arrays;
+// Return true if the group of N numbers at the start and end of the array are the same. For example, with {5, 6, 45, 99, 13, 5, 6}, the ends are the same for n=0 and n=2, and false for n=1 and n=3. You may assume that n is in the range 0..nums.length inclusive.
+
+// sameEnds([5, 6, 45, 99, 13, 5, 6], 1) → false
+// sameEnds([5, 6, 45, 99, 13, 5, 6], 2) → true
+// sameEnds([5, 6, 45, 99, 13, 5, 6], 3) → false
+public class SameEnds {
+    public static void main(String[] args) {
+        int arr[] = { 5, 6, 45, 99, 13, 5, 6 };
+        System.out.println(sameEnds(arr, 0));
+    }
+
+    public static boolean sameEnds(int[] arr, int n) {
+
+        int arr1[] = Arrays.copyOf(arr, n);
+        int arr2[] = Arrays.copyOfRange(arr, arr.length - n, arr.length);
+
+        if (Arrays.equals(arr1, arr2)) {
+            return true;
+        }
+        return false;
+    }
+}
