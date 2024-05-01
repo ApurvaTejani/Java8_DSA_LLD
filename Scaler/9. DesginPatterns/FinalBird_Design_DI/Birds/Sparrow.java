@@ -1,0 +1,26 @@
+
+public class Sparrow extends Bird implements Flyable, Talkable, Danceable {
+    Flyator flr;
+
+    // slow flying bird
+    void plugFlyator(Flyator flr) {
+        this.flr = flr;
+    }
+
+    public void makeSound() {
+        System.out.println("CHi CHI CHI");
+    }
+
+    public void dance() {
+        System.out.println("Sparrow is dancing");
+    }
+
+    public void eat() {
+        System.out.println("Sparrow is eating");
+    }
+
+    public void fly() {
+        flr.makeFly();
+    }
+
+}
