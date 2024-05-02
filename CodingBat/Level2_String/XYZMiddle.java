@@ -6,6 +6,8 @@ package CodingBat.Level2_String;
 //            0123456
 // xyzMiddle("AxyzBB") → true
 // xyzMiddle("AxyzBBB") → false
+
+//=================================Issues with the logic=============================
 public class XYZMiddle {
     public static void main(String[] args) {
         System.out.println(xyzMiddle("1x345xyz12x4"));
