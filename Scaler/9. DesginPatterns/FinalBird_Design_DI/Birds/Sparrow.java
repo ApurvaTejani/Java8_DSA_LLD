@@ -1,6 +1,6 @@
 
 public class Sparrow extends Bird implements Flyable, Talkable, Danceable {
-    Flyator flr;
+    private Flyator flr; // Initially null till not set
 
     // slow flying bird
     void plugFlyator(Flyator flr) {

@@ -4,7 +4,7 @@ import FinalBird_Design_DI.SlowFlying.java;
 import FinalBird_Design_DI.FastFlying.java;
 import FinalBird_Design_DI.Birds.Pengiun.java;
 
-public class Client {
+public class ClientMain {
     public static void main(String[] args) {
         System.out.println("========Sparrow==================");
         Sparrow sp = new Sparrow();
