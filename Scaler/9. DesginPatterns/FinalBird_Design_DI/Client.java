@@ -8,9 +8,13 @@ public class Client {
     public static void main(String[] args) {
         System.out.println("========Sparrow==================");
         Sparrow sp = new Sparrow();
-        // Flyator sftr = new SlowFlying();
-        // sp.plugFlyator(sftr);
-        // sp.fly();
+        // Writing a code to handle null pointer exception
+        sp.fly();
+        Flyator sftr = new SlowFlying();
+        sp.plugFlyator(sftr);
+        sp.fly();
+        System.out.println("===========================");
+        System.out.println("Client told that now sparrow flys faster");
         // Client told that now sparrow flys faster
         Flyator fftr = new FastFlying();
         sp.plugFlyator(fftr);

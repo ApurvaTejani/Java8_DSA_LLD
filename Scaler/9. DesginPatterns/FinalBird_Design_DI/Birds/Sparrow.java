@@ -20,6 +20,10 @@ public class Sparrow extends Bird implements Flyable, Talkable, Danceable {
     }
 
     public void fly() {
+        if (flr == null) {
+            System.out.println("Dependency not plugged");
+            return;
+        }
         flr.makeFly();
     }
 
