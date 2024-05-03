@@ -18,7 +18,7 @@ class MyObject {
     // }
 }
 
-public class LangDemo {
+public class ObjLangDemo {
     public static void main(String[] args) {
         // Creating and making two different objects equal by making hashCode equal
         MyObject o1 = new MyObject();
