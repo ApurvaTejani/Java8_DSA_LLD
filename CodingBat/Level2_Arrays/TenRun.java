@@ -8,6 +8,8 @@ import java.util.Arrays;
 // tenRun([2, 10, 3, 4, 20, 5]) → [2, 10, 10, 10, 20, 20]
 // tenRun([10, 1, 20, 2]) → [10, 10, 20, 20]
 // tenRun([10, 1, 9, 20]) → [10, 10, 10, 20]
+
+/// ============================Issues with the logic Need to revisit============================
 public class TenRun {
     public static void main(String[] args) {
         int arr[] = { 2, 10, 3, 4, 20, 5 };

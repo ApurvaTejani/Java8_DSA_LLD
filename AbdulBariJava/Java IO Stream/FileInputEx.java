@@ -9,12 +9,22 @@ public class FileInputEx {
             System.out.println(av);
             byte b[] = new byte[av];
             fis.read(b);
-            String str = new String(b);
+            // Reading values
+            // String str = new String(b);
+            // for (byte c : b) {
+            // System.out.print((char) c);
+            // }
+            // System.out.println();
+            // System.out.println(str);
+            FileOutputStream fos = new FileOutputStream(
+                    "C:/Users/apurv/OneDrive/AllCodes/Core_java/Udemy+Scaler/src/AbdulBariJava/Java IO Stream/Test.txt");
             for (byte c : b) {
-                System.out.print((char) c);
+                if ((char) c != ' ') {
+                    c = (byte) (c + 32);
+                }
+                fos.write(c);
             }
-            System.out.println();
-            System.out.println(str);
+
         } catch (FileNotFoundException e) {
             System.out.println(e);
         } catch (IOException e) {
