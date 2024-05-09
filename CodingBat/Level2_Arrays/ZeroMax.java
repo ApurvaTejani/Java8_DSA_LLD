@@ -11,29 +11,23 @@ import java.util.Arrays;
 public class ZeroMax {
 
     public static void main(String[] args) {
-        int arr[] = { 0, 1, 5 };
+        int arr[] = { 7, 0, 4, 3, 0, 0 };
         System.out.println(Arrays.toString(zeroMax(arr)));
     }
 
     public static int[] zeroMax(int[] arr) {
-        ArrayList<Integer> al = new ArrayList<>();
         int max = 0;
         for (int i = 0; i < arr.length; i++) {
             if (arr[i] == 0 && i != arr.length - 1) {
-
                 for (int j = i + 1; j < arr.length; j++) {
-                    if (arr[j] % 2 == 1 && (arr[j] >= max)) {
+                    if (arr[j] % 2 == 1 && arr[j] >= max) {
                         max = arr[j];
-                        al.add(arr[j]);
                     }
                 }
-                i++;
+                arr[i] = max;
                 max = 0;
             }
-            al.add(arr[i]);
-        }
-        for (int i = 0; i < arr.length; i++) {
-            arr[i] = al.get(i);
+
         }
         return arr;
     }

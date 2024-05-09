@@ -14,7 +14,7 @@ public class FileInput {
 
                         FileOutputStream fos = new FileOutputStream(
                                         "C:/Users/apurv/OneDrive/AllCodes/Core_java/Udemy+Scaler/src/AbdulBariJava/Java IO Stream/DestinationCap/Destination.txt");
-                        byte[] buffer = new byte[1024];
+                        byte[] buffer = new byte[fis1.available() + fis2.available()];
                         int bytesRead;
                         while (true) {
                                 bytesRead = sis.read(buffer);
@@ -23,11 +23,14 @@ public class FileInput {
                                         break; // Exit the loop if no more bytes are read
                                 fos.write(buffer, 0, bytesRead);
                         }
+
+                } catch (Exception e) {
+                        System.out.println(e);
+                } finally {
                         sis.close();
                         fis2.close();
                         fis1.close();
-                } catch (Exception e) {
-                        System.out.println(e);
+                        fos.close();
                 }
         }
 
