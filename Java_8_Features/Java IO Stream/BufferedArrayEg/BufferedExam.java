@@ -3,7 +3,7 @@ import java.io.*;
 public class BufferedExam {
     public static void main(String[] args) throws Exception {
         FileInputStream fis = new FileInputStream(
-                "C:/Users/apurv/OneDrive/AllCodes/Core_java/Udemy+Scaler/src/AbdulBariJava/Java IO Stream/Imput.txt");
+                "C:/Users/apurv/OneDrive/AllCodes/Core_java/Udemy+Scaler/src/Java_8_Features/Java IO Stream/Imput.txt");
         BufferedInputStream bis = new BufferedInputStream(fis);
 
         System.out.println(fis.markSupported());
