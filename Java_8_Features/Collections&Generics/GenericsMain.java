@@ -13,8 +13,8 @@ public class GenericsMain {
         System.out.println(list);
         System.out.println("-".repeat(30));
         CustomList<Integer> list1 = new CustomList();
-        list1.add(4);
-        list1.add(5);
+        // list1.add(4);
+        // list1.add(5);
         System.out.println(list1);
         ArrayList<Integer> arrlist = new ArrayList<>();
         arrlist.add(1);

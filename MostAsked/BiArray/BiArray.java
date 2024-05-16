@@ -1,4 +1,3 @@
-package MostAsked;
 
 // Examples
 

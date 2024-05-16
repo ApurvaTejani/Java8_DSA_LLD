@@ -3,8 +3,6 @@ import java.io.SequenceInputStream;
 
 import javax.sound.midi.Sequence;
 
-import DestinationCap.FileInput;
-
 public class FileOuputDestination {
     public static void main(String[] args) {
         try {

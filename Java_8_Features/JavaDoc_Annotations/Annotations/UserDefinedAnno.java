@@ -1,4 +1,3 @@
-package AbdulBariJava.JavaDoc_Annotations.Annotations;
 
 @interface MyAnno {
     String name();

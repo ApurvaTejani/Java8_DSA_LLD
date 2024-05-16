@@ -1,4 +1,3 @@
-package MostAsked;
 
 public class SumOfDigits {
     public static void main(String[] args) {

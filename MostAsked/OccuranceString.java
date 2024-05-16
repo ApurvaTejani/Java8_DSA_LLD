@@ -1,4 +1,3 @@
-package MostAsked;
 
 public class OccuranceString {
     public static void main(String[] args) {

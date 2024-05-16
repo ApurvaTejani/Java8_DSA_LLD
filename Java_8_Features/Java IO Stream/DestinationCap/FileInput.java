@@ -26,12 +26,12 @@ public class FileInput {
 
                 } catch (Exception e) {
                         System.out.println(e);
-                } finally {
-                        sis.close();
-                        fis2.close();
-                        fis1.close();
-                        fos.close();
                 }
+        }
+
+        public static SequenceInputStream getSequenceInputStream() {
+                // TODO Auto-generated method stub
+                throw new UnsupportedOperationException("Unimplemented method 'getSequenceInputStream'");
         }
 
 }

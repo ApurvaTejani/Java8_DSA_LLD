@@ -1,4 +1,4 @@
-package AbdulBariJava.ExceptionHandling;
+;
 
 class NegativeDimensionException extends Exception {
     public String toString() {

@@ -1,4 +1,3 @@
-package AbdulBariJava.ExceptionHandling.UserDefinedException;
 
 public class UserDefinedExpection {
     public static void main(String[] args) throws NotValidAgeException {

@@ -1,4 +1,3 @@
-package AbdulBariJava.ExceptionHandling;
 
 import java.io.FileInputStream;
 import java.util.Scanner;

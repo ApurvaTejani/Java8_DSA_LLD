@@ -1,4 +1,4 @@
-package MostAsked.ArrayMagic;
+package ArrayMagic;
 
 import java.util.*;
 

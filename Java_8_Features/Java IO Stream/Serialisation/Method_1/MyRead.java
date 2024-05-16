@@ -1,7 +1,6 @@
 import java.io.BufferedReader;
 import java.io.FileInputStream;
 import java.io.FileReader;
-import Seralisation.Method_1.Student;
 
 public class MyRead {
 

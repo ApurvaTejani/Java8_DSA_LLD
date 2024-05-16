@@ -1,4 +1,3 @@
-package MostAsked;
 
 public class BiArrayMain {
     public static void main(String[] args) {

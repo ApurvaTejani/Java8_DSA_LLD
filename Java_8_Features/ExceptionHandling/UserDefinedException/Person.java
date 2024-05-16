@@ -1,4 +1,3 @@
-package AbdulBariJava.ExceptionHandling.UserDefinedException;
 
 public class Person {
     private int age;
