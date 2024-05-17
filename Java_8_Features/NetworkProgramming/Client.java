@@ -1,11 +1,12 @@
 package Java_8_Features.NetworkProgramming;
 
 import java.io.*;
+import java.io.InputStreamReader;
 import java.net.*;
 
 public class Client {
     public static void main(String[] args) throws Exception {
-        Socket stk = new Socket(" 10.0.2.15", 16);
+        Socket stk = new Socket("localhost", 2000);
         InputStreamReader isr = new InputStreamReader(System.in);
         BufferedReader keyboard = new BufferedReader(isr);
         BufferedReader br = new BufferedReader(new InputStreamReader(stk.getInputStream()));
