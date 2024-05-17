@@ -1,5 +1,4 @@
-package CodingBat.Level2_Arrays;
-
+package DSA_Pre_prep.Level2_Arrays;
 // Given an array of ints, return true if the value 3 appears in the array exactly 3 times, and no 3's are next to each other.
 
 // haveThree([3, 1, 3, 1, 3]) → true

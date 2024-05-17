@@ -1,5 +1,4 @@
-package CodingBat.Level2_Arrays;
-
+package DSA_Pre_prep.Level2_Arrays;
 // Given an array of ints, return true if the array contains either 3 even or 3 odd values all next to each other.
 
 // modThree([2, 1, 3, 5]) → true

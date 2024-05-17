@@ -1,5 +1,4 @@
-package CodingBat.Level2_Arrays;
-
+package DSA_Pre_prep.Level2_Arrays;
 // Given an array of ints, return true if every element is a 1 or a 4.
 
 // only14([1, 4, 1, 4]) → true

@@ -1,5 +1,4 @@
-package CodingBat.Level2_Arrays;
-
+package DSA_Pre_prep.Level2_Arrays;
 // Return true if the array contains, somewhere, three increasing adjacent numbers like .... 4, 5, 6, ... or 23, 24, 25.
 
 // tripleUp([1, 4, 5, 6, 2]) → true

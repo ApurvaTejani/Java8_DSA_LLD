@@ -1,4 +1,4 @@
-package CodingBat.Level2_Arrays;
+package DSA_Pre_prep.Level2_Arrays;
 
 public class MatchUp {
     public static void main(String[] args) {

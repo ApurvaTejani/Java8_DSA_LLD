@@ -1,5 +1,4 @@
-package CodingBat.Level2_Arrays;
-
+package DSA_Pre_prep.Level2_Arrays;
 // Given an array of ints, return true if the array contains no 1's and no 3's.
 
 // lucky13([0, 2, 4]) → true

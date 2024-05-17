@@ -1,4 +1,4 @@
-package CodingBat.Level2_Arrays;
+package DSA_Pre_prep.Level2_Arrays;
 
 import java.util.ArrayList;
 import java.util.Arrays;

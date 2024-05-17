@@ -1,4 +1,4 @@
-package CodingBat.Level1_String;
+package DSA_Pre_prep.Level1_String;
 
 // Given a string name, e.g. "Bob", return a greeting of the form "Hello Bob!".
 

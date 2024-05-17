@@ -1,4 +1,4 @@
-package CodingBat.Level2_String;
+package DSA_Pre_prep.Level2_String;
 
 // Return the number of times that the string "hi" appears anywhere in the given string.
 
