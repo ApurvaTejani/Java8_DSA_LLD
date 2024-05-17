@@ -1,4 +1,4 @@
-package AbdulBariJava.MultiThreading.InterThreadSync;
+package Java_8_Features.MultiThreading.InterThreadSync;
 
 public class Producer extends Thread {
     MyData d;

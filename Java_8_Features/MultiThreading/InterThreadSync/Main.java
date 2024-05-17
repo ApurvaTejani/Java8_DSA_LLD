@@ -1,4 +1,4 @@
-package AbdulBariJava.MultiThreading.InterThreadSync;
+package Java_8_Features.MultiThreading.InterThreadSync;
 
 public class Main {
     public static void main(String[] args) {
