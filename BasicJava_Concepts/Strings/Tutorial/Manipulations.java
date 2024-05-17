@@ -1,4 +1,4 @@
-package Udemy.Strings.Tutorial;
+package BasicJava_Concepts.Strings.Tutorial;
 
 public class Manipulations {
 

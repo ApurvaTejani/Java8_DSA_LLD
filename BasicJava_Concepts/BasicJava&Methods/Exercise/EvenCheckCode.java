@@ -1,4 +1,3 @@
-package Exercise;
 
 public class EvenCheckCode {
     public static void main(String[] args) {

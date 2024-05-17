@@ -1,4 +1,4 @@
-package Udemy.ArrayList;
+package BasicJava_Concepts.ArrayList;
 
 import java.util.ArrayList;
 import java.util.Arrays;

@@ -1,4 +1,3 @@
-package MethodChallenge;
 
 public class MinToYearsAndDays {
     public static void main(String[] args) {

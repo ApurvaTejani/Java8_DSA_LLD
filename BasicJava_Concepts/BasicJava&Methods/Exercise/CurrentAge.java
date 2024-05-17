@@ -1,4 +1,3 @@
-package Demo_prewritten;
 
 import java.util.Scanner;
 

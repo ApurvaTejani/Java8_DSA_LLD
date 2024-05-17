@@ -1,4 +1,4 @@
-package Udemy.Arrays;
+package BasicJava_Concepts.Arrays.Tutorial;
 
 import java.util.Arrays;
 import java.util.Random;

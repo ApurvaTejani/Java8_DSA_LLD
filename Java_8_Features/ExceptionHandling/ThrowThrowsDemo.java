@@ -1,4 +1,3 @@
-;
 
 class NegativeDimensionException extends Exception {
     public String toString() {

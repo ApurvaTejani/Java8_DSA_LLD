@@ -1,4 +1,3 @@
-package MethodChallenge;
 
 public class EqualityPrinter {
 

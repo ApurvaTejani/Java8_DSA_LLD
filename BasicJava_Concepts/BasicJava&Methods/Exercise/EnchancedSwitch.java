@@ -1,4 +1,3 @@
-package Exercise;
 
 public class EnchancedSwitch {
     public static void main(String[] args) {

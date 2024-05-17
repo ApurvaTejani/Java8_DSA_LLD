@@ -1,4 +1,3 @@
-package MethodChallenge;
 
 public class methodChallenge {
     public static void displayHighScorePostion(String name, int result) {

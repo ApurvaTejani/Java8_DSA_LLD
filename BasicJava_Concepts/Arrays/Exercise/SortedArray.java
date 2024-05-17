@@ -1,4 +1,4 @@
-package Udemy.Arrays.Exercise;
+package BasicJava_Concepts.Arrays.Exercise;
 
 import java.util.Arrays;
 import java.util.Scanner;

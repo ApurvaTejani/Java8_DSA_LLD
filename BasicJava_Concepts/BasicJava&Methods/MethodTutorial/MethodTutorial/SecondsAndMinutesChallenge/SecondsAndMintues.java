@@ -1,4 +1,4 @@
-package MethodTutorial.MethodTutorial.SecondsAndMinutesChallenge;
+package MethodTutorial.SecondsAndMinutesChallenge;
 
 public class SecondsAndMintues {
 

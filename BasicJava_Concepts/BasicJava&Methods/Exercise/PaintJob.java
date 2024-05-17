@@ -1,4 +1,3 @@
-package Exercise;
 
 import java.lang.Math;
 

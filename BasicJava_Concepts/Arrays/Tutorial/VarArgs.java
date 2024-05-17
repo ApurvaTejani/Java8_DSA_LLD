@@ -1,4 +1,4 @@
-package Udemy.Arrays;
+package BasicJava_Concepts.Arrays.Tutorial;
 
 public class VarArgs {
 
