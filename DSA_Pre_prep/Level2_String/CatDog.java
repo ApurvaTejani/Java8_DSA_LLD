@@ -1,4 +1,3 @@
-package DSA_Pre_prep.Level2_String;
 
 // Return true if the string "cat" and "dog" appear the same number of times in the given string.
 
