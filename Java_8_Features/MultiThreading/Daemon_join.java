@@ -1,6 +1,6 @@
-package AbdulBariJava.MultiThreading;
 
-class MyThread extends Thread {
+
+ class mythread extends Thread {
     public void run() {
         int i = 0;
         while (i < 20000) {
@@ -13,7 +13,7 @@ class MyThread extends Thread {
 public class Daemon_join {
     public static void main(String[] args) {
 
-        MyThread t = new MyThread();
+        mythread t = new mythread();
         Thread mainThr = Thread.currentThread();
         t.setDaemon(true);
         t.start();

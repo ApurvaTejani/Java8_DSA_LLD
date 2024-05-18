@@ -8,7 +8,7 @@
 
 public class StringMatch {
     public static void main(String[] args) {
-        System.out.println(stringMatch("", "abc")); // xx xc ca aa az zz
+        System.out.println(stringMatch("abc", "abc")); // xx xc ca aa az zz
     }
     public static int stringMatch(String a, String b)
     {

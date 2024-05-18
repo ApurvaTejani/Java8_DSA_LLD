@@ -1,4 +1,5 @@
+package FairWork.Lect_Inter_Factory.AbstractFactory;
 
 public interface QueryEx {
-    void execute();
+    public void execute();
 }

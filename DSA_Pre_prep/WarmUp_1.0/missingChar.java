@@ -6,10 +6,10 @@
 // missingChar("kitten", 4) → "kittn"
 public class missingChar {
     public static void main(String[] args) {
-        System.out.print(missingChar("kitten", 4));
+        System.out.print(missingCharMethod("kitten", 4));
     }
 
-    public static String missingChar(String str, int n) {
+    public static String missingCharMethod(String str, int n) {
         char[] letters = str.toCharArray();
         char[] newLetters = new char[letters.length];
         for (int i = 0; i < letters.length; i++) {

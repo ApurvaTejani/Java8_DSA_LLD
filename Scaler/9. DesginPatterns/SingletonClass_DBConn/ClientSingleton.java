@@ -1,6 +1,6 @@
-import SingletonClass_DBConn.Thread3;
 
-public class Client {
+
+public class ClientSingleton {
     public static void main(String[] args) throws InterruptedException {
         Thread t1 = new Thread(new Thread1());
         Thread t2 = new Thread(new Thread2());

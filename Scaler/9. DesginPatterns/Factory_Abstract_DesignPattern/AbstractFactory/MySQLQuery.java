@@ -1,3 +1,4 @@
+package FairWork.Lect_Inter_Factory.AbstractFactory;
 
 public class MySQLQuery implements QueryEx {
     public void execute() {

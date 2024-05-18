@@ -1,9 +1,9 @@
-
+package Birds;
 public class Sparrow extends Bird implements Flyable, Talkable, Danceable {
     private Flyator flr; // Initially null till not set
 
     // slow flying bird
-    void plugFlyator(Flyator flr) {
+    public void plugFlyator(Flyator flr) {
         this.flr = flr;
     }
 

@@ -1,7 +1,7 @@
-package AbdulBariJava.MultiThreading;
+import java.lang.*;
 
-class MyThread extends Thread {
-    public MyThread(String name) {
+class mythread1 extends Thread {
+    public mythread1(String name) {
         super(name);
         // setPriority(Thread.MAX_PRIORITY);
         // setPriority(Thread.MIN_PRIORITY+2);
@@ -20,11 +20,11 @@ class MyThread extends Thread {
     }
 }
 
-public class ThreadTest1 {
+class ThreadTest1 {
 
     public static void main(String[] args) {
         // Thread t=new Thread(new MyRun(),"My Name");
-        MyThread t = new MyThread("My Thread 1");
+        mythread1 t = new mythread1("My Thread 1");
         t.start();
         t.interrupt();
         /*

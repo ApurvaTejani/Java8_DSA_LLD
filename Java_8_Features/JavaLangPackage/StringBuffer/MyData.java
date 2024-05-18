@@ -1,4 +1,4 @@
-package AbdulBariJava.JavaLangPackage.StringBuffer;
+package StringBuffer;
 
 public class MyData {
 

@@ -1,4 +1,4 @@
-package BasicJava_Concepts.Arrays.Tutorial;
+package Java8_DSA_LLD.BasicJava_Concepts.Arrays.Tutorial;
 
 public class VarArgs {
 

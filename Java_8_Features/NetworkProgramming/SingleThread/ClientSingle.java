@@ -3,7 +3,7 @@ package Java_8_Features.NetworkProgramming;
 import java.io.*;
 import java.net.*;
 
-public class Client {
+public class ClientSingle {
     public static void main(String[] args) throws Exception {
         Socket stk = new Socket("172.20.58.202", 20);
         // Display server's IP address

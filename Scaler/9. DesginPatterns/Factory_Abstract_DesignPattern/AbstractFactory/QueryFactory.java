@@ -1,4 +1,5 @@
+package FairWork.Lect_Inter_Factory.AbstractFactory;
 
 public interface QueryFactory {
-    abstract QueryEx getQuery();
+    public abstract QueryEx getQuery();
 }

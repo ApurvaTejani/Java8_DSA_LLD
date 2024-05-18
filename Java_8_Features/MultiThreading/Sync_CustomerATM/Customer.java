@@ -1,4 +1,4 @@
-package AbdulBariJava.MultiThreading.CustomerATM;
+package Sync_CustomerATM;
 
 public class Customer extends Thread {
     ATM atm;

@@ -1,4 +1,4 @@
-package AbdulBariJava.MultiThreading;
+
 
 /*class MyThread extends Thread
 {
@@ -23,7 +23,7 @@ class MyRunnable implements Runnable {
     }
 }
 
-public class ThreadTest1 // implements Runnable //extends Thread
+public class threadTest1 // implements Runnable //extends Thread
 {
     /*
      * public void run()

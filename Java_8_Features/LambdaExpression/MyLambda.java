@@ -1,5 +1,5 @@
 package AbdulBariJava.LambdaExpression;
 
-interface MyLambda {
+interface MyLambda1 {
     void display(String str);
 }

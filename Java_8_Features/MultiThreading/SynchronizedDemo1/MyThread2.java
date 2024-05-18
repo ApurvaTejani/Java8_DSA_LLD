@@ -1,5 +1,5 @@
-package AbdulBariJava.MultiThreading.SynchronizedDemo1;
 
+package SynchronizedDemo1;
 public class MyThread2 extends Thread {
     MyData d2;
 

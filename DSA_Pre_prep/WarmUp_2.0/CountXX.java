@@ -6,7 +6,7 @@
 // countXX("xxxx") → 3
 public class CountXX {
     public static void main(String[] args) {
-        System.out.println(countXX(""));
+        System.out.println(countXX("xxxx"));
     }
 
     public static int countXX(String str) {

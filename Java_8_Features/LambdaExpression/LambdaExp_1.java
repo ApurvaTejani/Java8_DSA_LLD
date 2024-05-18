@@ -1,6 +1,5 @@
-package AbdulBariJava.LambdaExpression;
 
-interface MyLambda {
+interface myLambda {
     public void display();
 }
 
@@ -17,7 +16,7 @@ interface MyLambda {
 public class LambdaExp_1 {
     public static void main(String[] args) {
         // Lambda Exp
-        MyLambda m = () -> {
+        myLambda m = () -> {
             System.out.println("Hello world");
         };
         // Inner Class

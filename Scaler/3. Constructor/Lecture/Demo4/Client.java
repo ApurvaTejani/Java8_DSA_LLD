@@ -1,5 +1,6 @@
 package FairWork.Lecture3_Inter_OOPs.Demo4;
-
+import FairWork.Lecture3_Inter_OOPs.Demo4.Point;
+import FairWork.Lecture3_Inter_OOPs.Demo4.Rectangle;
 public class Client {
     public static void main(String[] args) {
         Point p1 = new Point(10, 10);

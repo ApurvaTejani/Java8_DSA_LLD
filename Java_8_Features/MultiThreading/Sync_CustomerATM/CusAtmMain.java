@@ -1,4 +1,4 @@
-package AbdulBariJava.MultiThreading.CustomerATM;
+package Sync_CustomerATM;
 
 public class CusAtmMain {
     public static void main(String[] args) {

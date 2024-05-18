@@ -1,4 +1,4 @@
-package AbdulBariJava.LambdaExpression;
+package LambdaExpression;
 
 @FunctionalInterface
 interface MyLambda {

@@ -1,5 +1,5 @@
 package FairWork.Lecture3_Inter_OOPs.Demo3;
-
+import FairWork.Lecture3_Inter_OOPs.Demo3.Person;
 
 public class Client {
     public static void main(String[] args) {

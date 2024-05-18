@@ -1,3 +1,5 @@
+package Serialisation.Method_2;
+
 import java.io.*;
 
 public class MyWrite {
@@ -5,7 +7,7 @@ public class MyWrite {
         try {
 
             FileOutputStream fos = new FileOutputStream(
-                    "C:/Users/apurv/OneDrive/AllCodes/Core_java/Udemy+Scaler/src/Java_8_Features/Java IO Stream/Serialisation/Method_2/student2.txt");
+                    "C:/Users/apurv/IdeaProjects/Java8_DSA_LLD/src/Java_8_Features/Java IO Stream/Serialisation/Method_2/student2.txt");
             DataOutputStream dos = new DataOutputStream(fos);
             Student s = new Student();
             s.rollno = 10;

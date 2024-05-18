@@ -1,4 +1,4 @@
-package Java_8_Features.MultiThreading.InterThreadSync;
+package InterThreadSync;
 
 public class Consumer extends Thread {
     MyData d;

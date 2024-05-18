@@ -1,8 +1,10 @@
+package Birds;
+
 public class Crow extends Bird implements Flyable, Talkable, Danceable {
     Flyator flr;
 
     // Fast flying Bird
-    void plugFlyator(Flyator flr) {
+    public void plugFlyator(Flyator flr) {
         this.flr = flr;
     }
 

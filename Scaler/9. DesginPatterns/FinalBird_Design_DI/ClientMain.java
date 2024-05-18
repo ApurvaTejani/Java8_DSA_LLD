@@ -1,8 +1,8 @@
-import FinalBird_Design_DI.Birds.Sparrow.java;
-import FinalBird_Design_DI.Flyator.java;
-import FinalBird_Design_DI.SlowFlying.java;
-import FinalBird_Design_DI.FastFlying.java;
-import FinalBird_Design_DI.Birds.Pengiun.java;
+import Birds.*;
+//import Flyator;
+//import FinalBird_Design_DI.SlowFlying.java;
+//import FinalBird_Design_DI.FastFlying.java;
+//import FinalBird_Design_DI.Birds.Pengiun.java;
 
 public class ClientMain {
     public static void main(String[] args) {

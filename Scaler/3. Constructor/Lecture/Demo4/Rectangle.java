@@ -1,5 +1,5 @@
 package FairWork.Lecture3_Inter_OOPs.Demo4;
-
+import FairWork.Lecture3_Inter_OOPs.Demo4.Point;
 public class Rectangle {
     Point tl;
     Point br;

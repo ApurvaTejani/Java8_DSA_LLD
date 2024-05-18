@@ -1,5 +1,5 @@
-package AbdulBariJava.JavaLangPackage.StringBuffer;
 
+package StringBuffer;
 public class StringBufferTest {
     public static void main(String[] args) {
         MyData d = new MyData();

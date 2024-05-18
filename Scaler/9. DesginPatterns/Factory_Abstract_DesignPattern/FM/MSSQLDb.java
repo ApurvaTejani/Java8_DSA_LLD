@@ -1,11 +1,10 @@
 package FairWork.Lect_Inter_Factory.FM;
 
-import FairWork.Lect_Inter_Factory.Common.MSSQLQuery;
-import FairWork.Lect_Inter_Factory.Common.MySQLQuery;
-import FairWork.Lect_Inter_Factory.Common.Query;
+import FairWork.Lect_Inter_Factory.AbstractFactory.MSSQLQuery;
+import FairWork.Lect_Inter_Factory.AbstractFactory.QueryEx;
 
 public class MSSQLDb extends Database {
-    public Query getQuery(){
+    public QueryEx getQuery(){
         return new MSSQLQuery();
     }
 }

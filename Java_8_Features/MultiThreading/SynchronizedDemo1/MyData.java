@@ -1,4 +1,4 @@
-package AbdulBariJava.MultiThreading.SynchronizedDemo1;
+package SynchronizedDemo1;
 
 public class MyData {
     synchronized public void display(String str) {

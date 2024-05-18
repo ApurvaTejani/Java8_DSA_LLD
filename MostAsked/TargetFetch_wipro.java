@@ -6,14 +6,14 @@ public class TargetFetch_wipro {
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter the Array lenght size");
         int length = sc.nextInt();
-        int arr[] = new int[length];
+        int[] arr = new int[length];
         System.out.println("Enter the elements of arrays");
         for (int i = 0; i < arr.length; i++) {
             arr[i] = sc.nextInt(); // 3 4 2 1
         }
         System.out.println("Enter the target Element ");
         int target = sc.nextInt();
-        int sum[] = new int[2 * length];
+        int[] sum = new int[2 * length];
         int k = 0;
         int x = 0;
         int y = 0;

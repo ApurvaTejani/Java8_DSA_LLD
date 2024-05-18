@@ -1,3 +1,6 @@
+package FairWork.Lect_Inter_Factory.AbstractFactory;
+
+
 
 public class Database {
     private QueryFactory qf;

@@ -1,4 +1,4 @@
-package Scaler_Exercise;
+package MethodChallenge;
 
 public class StudentNew {
     // write the code of student class here

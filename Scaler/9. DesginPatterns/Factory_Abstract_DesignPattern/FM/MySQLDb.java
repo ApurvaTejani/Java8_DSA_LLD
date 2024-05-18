@@ -1,10 +1,10 @@
 package FairWork.Lect_Inter_Factory.FM;
 
-import FairWork.Lect_Inter_Factory.Common.MySQLQuery;
-import FairWork.Lect_Inter_Factory.Common.Query;
+import FairWork.Lect_Inter_Factory.AbstractFactory.MySQLQuery;
+import FairWork.Lect_Inter_Factory.AbstractFactory.QueryEx;
 
 public class MySQLDb extends Database {
-    public Query getQuery(){
+    public QueryEx getQuery(){
         return new MySQLQuery();
     }
 }

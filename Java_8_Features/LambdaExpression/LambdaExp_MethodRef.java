@@ -1,9 +1,8 @@
 package AbdulBariJava.LambdaExpression;
 
-import AbdulBariJava.LambdaExpression.MyLambda;
 
 // Having issue need to revisit
-interface MyLambda {
+interface mylambda {
     void display(String str);
 }
 
@@ -17,7 +16,7 @@ public class LambdaExp_MethodRef {
     public static void main(String[] args) {
         // MyLambda ml = System.out::println;
         // ml.display("Hello");
-        MyLambda ml = LambdaExp_MethodRef::reverse;
+        mylambda ml = LambdaExp_MethodRef::reverse;
         ml.display("Hello");
     }
 }

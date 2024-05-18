@@ -1,3 +1,4 @@
+package Birds;
 public abstract class Bird {
     int weight;
     String color;

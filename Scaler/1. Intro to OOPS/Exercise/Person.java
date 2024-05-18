@@ -1,4 +1,4 @@
-package Scaler_Exercise;
+package MethodChallenge;
 
 public class Person {
     private int age;

@@ -1,4 +1,4 @@
-package AbdulBariJava.JavaLangPackage.StringBuffer;
+package StringBuffer;
 
 public class MyThread1 extends Thread {
     MyData d1;
