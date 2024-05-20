@@ -28,3 +28,7 @@ Here are some related projects
 optimized code by providing proven solutions to common design problems, promoting code reusability, maintainability, and scalability.
 
 Explored why to use these SOLID / design pattern concepts
+
+## Note
+
+Now the Active branch is MainSource
