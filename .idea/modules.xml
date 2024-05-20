@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/BasicJava_Concepts/BasicJava_Concepts.iml" filepath="$PROJECT_DIR$/BasicJava_Concepts/BasicJava_Concepts.iml" />
+      <module fileurl="file://$PROJECT_DIR$/DSA_DSA_Pre_prep/DSA_DSA_Pre_prep.iml" filepath="$PROJECT_DIR$/DSA_DSA_Pre_prep/DSA_DSA_Pre_prep.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Java8_DSA_LLDFInal.iml" filepath="$PROJECT_DIR$/Java8_DSA_LLDFInal.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Java_8_Features/Java_8_Features.iml" filepath="$PROJECT_DIR$/Java_8_Features/Java_8_Features.iml" />
+      <module fileurl="file://$PROJECT_DIR$/MostAsked/MostAsked.iml" filepath="$PROJECT_DIR$/MostAsked/MostAsked.iml" />
+      <module fileurl="file://$PROJECT_DIR$/NewStuffFun/NewStuffFun.iml" filepath="$PROJECT_DIR$/NewStuffFun/NewStuffFun.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Scaler/Scaler.iml" filepath="$PROJECT_DIR$/Scaler/Scaler.iml" />
+    </modules>
+  </component>
+</project>

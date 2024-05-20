@@ -1,0 +1,26 @@
+a. Create a class Point
+
+i. It should have 2 data-members: x and y ii. Add a constructor with two parameters: x and y iii. Add a copy constructor
+
+
+b. Create a class Rectangle
+
+i. It should have 2 data-members
+
+- 1. topLeft (Point)
+- 2. bottomRight (Point)
+
+ii. Add a constructor with 4 parameters of type int: topLeftX, topLeftY, bottomRightX, bottomRightY
+iii. Add a constructor with 2 parameters of type Point: topLeft, bottomRight
+iv. Add a constructor with 1 parameter of type Rectangle
+v. Make sure that Rectangle constructors make deep copies
+
+
+Q1 Which module in JVM is responsible for memory cleanup
+===>Garbage Collector
+
+Q2 What function should we override in Java for clean-up activities before JVM reclaims the memory assigned to an object
+===>Finalize
+
+Q3 What keyword is used to make class level data members
+===> Static

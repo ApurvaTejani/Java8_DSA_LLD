@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ArrayList Manager</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            max-width: 600px;
+            margin: 20px auto;
+            padding: 20px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        button {
+            margin: 5px;
+            padding: 10px 20px;
+            cursor: pointer;
+        }
+        input[type="text"] {
+            padding: 8px;
+            margin: 5px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h2>ArrayList Manager</h2>
+        <label for="input">Enter item:</label>
+        <input type="text" id="input">
+        <button onclick="addItem()">Add Item</button>
+        <button onclick="removeItem()">Remove Item</button>
+        <button onclick="clearScreen()">Clear Screen</button>
+        <div id="output"></div>
+    </div>
+
+    <script>
+        function addItem() {
+            var item = document.getElementById("input").value;
+            fetch('/addItem?item=' + item)
+                .then(response => response.text())
+                .then(data => {
+                    document.getElementById("output").innerHTML = data;
+                });
+        }
+
+        function removeItem() {
+            var item = document.getElementById("input").value;
+            fetch('/removeItem?item=' + item)
+                .then(response => response.text())
+                .then(data => {
+                    document.getElementById("output").innerHTML = data;
+                });
+        }
+
+        function clearScreen() {
+            fetch('/clearScreen')
+                .then(response => response.text())
+                .then(data => {
+                    document.getElementById("output").innerHTML = data;
+                });
+        }
+    </script>
+</body>
+</html>
