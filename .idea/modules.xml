@@ -2,7 +2,17 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+<<<<<<< HEAD
       <module fileurl="file://$PROJECT_DIR$/Module1/Module1.iml" filepath="$PROJECT_DIR$/Module1/Module1.iml" />
+=======
+      <module fileurl="file://$PROJECT_DIR$/BasicJava_Concepts/BasicJava_Concepts.iml" filepath="$PROJECT_DIR$/BasicJava_Concepts/BasicJava_Concepts.iml" />
+      <module fileurl="file://$PROJECT_DIR$/DSA_DSA_Pre_prep/DSA_DSA_Pre_prep.iml" filepath="$PROJECT_DIR$/DSA_DSA_Pre_prep/DSA_DSA_Pre_prep.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Java8_DSA_LLDFInal.iml" filepath="$PROJECT_DIR$/Java8_DSA_LLDFInal.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Java_8_Features/Java_8_Features.iml" filepath="$PROJECT_DIR$/Java_8_Features/Java_8_Features.iml" />
+      <module fileurl="file://$PROJECT_DIR$/MostAsked/MostAsked.iml" filepath="$PROJECT_DIR$/MostAsked/MostAsked.iml" />
+      <module fileurl="file://$PROJECT_DIR$/NewStuffFun/NewStuffFun.iml" filepath="$PROJECT_DIR$/NewStuffFun/NewStuffFun.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Scaler/Scaler.iml" filepath="$PROJECT_DIR$/Scaler/Scaler.iml" />
+>>>>>>> 8e7376d (Final project structure change)
     </modules>
   </component>
 </project>
