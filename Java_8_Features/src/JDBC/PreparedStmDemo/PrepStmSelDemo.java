@@ -3,7 +3,7 @@ package JDBC.PreparedStmDemo;
 import java.sql.*;
 import java.util.Scanner;
 
-public class PrepStmDemo {
+public class PrepStmSelDemo {
     public static void main(String[] args) throws Exception {
         Class.forName("org.sqlite.JDBC");
         Connection con = DriverManager.getConnection("jdbc:sqlite:C:\\SQLLite\\univ.db");
