@@ -6,7 +6,14 @@ import java.util.List;
 import java.util.function.Consumer;
 
 public class ConsumerDemo {
-    static Consumer<Student> c1 = (s) -> System.out.print(s.getName() + " ");
+//    static Consumer<Student> c1 = (s) -> System.out.print(s.getName() + " ");
+
+    static Consumer<Student> c1 = new Consumer<Student>() {
+        @Override
+        public void accept(Student s) {
+            System.out.print(s.getName() + " ");
+        }
+    };
     static Consumer<Student> c2 = (s) -> System.out.println(s.getActivities());
 
     static Consumer<Student> c3 = (s) -> System.out.print(s.getGradeLevel() + " ");
