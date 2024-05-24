@@ -1,4 +1,4 @@
-package Lambdas_FunctionalInterface.StudentExample;
+package Lambdas_FunctionalInterface.Student;
 
 import java.util.List;
 

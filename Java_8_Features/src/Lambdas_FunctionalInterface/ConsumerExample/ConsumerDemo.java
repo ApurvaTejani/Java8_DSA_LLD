@@ -1,7 +1,9 @@
-package Lambdas_FunctionalInterface.StudentExample;
+package Lambdas_FunctionalInterface.ConsumerExample;
 
 
-import java.text.CompactNumberFormat;
+import Lambdas_FunctionalInterface.Student.Student;
+import Lambdas_FunctionalInterface.Student.StudentDatabase;
+
 import java.util.List;
 import java.util.function.BiConsumer;
 import java.util.function.Consumer;
