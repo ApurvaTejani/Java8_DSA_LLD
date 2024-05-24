@@ -11,7 +11,8 @@ public class StudentDatabase {
         Student s4 = new Student("Mia", 3, 3.9, "Female", Arrays.asList("Swimming", "Gymming", "Cricket"));
         Student s5 = new Student("Abdul", 4, 3.5, "male", Arrays.asList("Swimming", "Riding", "Gymming"));
         Student s6 = new Student("Neha", 4, 3.9, "Female", Arrays.asList("Gymming", "Handball", "Cricket"));
-        List<Student> allStudents = List.of(s1, s2, s3, s4, s5, s6);
+        Student s7 = new Student("RamScholar", 4, 4.5, "Male", Arrays.asList("Studying", "Coding", "Chess"));
+        List<Student> allStudents = List.of(s1, s2, s3, s4, s5, s6, s7);
         return allStudents;
     }
 }
