@@ -3,6 +3,7 @@ package Lambdas_FunctionalInterface.StudentExample;
 
 import java.text.CompactNumberFormat;
 import java.util.List;
+import java.util.function.BiConsumer;
 import java.util.function.Consumer;
 
 public class ConsumerDemo {
@@ -19,6 +20,8 @@ public class ConsumerDemo {
     static Consumer<Student> c2 = (s) -> System.out.println(s.getActivities());
 
     static Consumer<Student> c3 = (s) -> System.out.print(s.getGradeLevel() + " ");
+
+    static BiConsumer<String, Double> bc = (name, gpa) -> System.out.println(name + " has gpa of" + gpa);
     static List<Student> studlist = StudentDatabase.getAllStudents();
 
     static void printName() {
@@ -41,6 +44,9 @@ public class ConsumerDemo {
         });
     }
 
+    static void printNameWithGPA() {
+        studlist.forEach(s -> bc.accept(s.getName(), s.getGpa()));
+    }
 
     public static void main(String[] args) {
         printName();
@@ -48,5 +54,7 @@ public class ConsumerDemo {
         printActivities();
         System.out.println("Activities with Grade 3");
         printActivitiesWithGrade3();
+        System.out.println();
+        printNameWithGPA();
     }
 }
