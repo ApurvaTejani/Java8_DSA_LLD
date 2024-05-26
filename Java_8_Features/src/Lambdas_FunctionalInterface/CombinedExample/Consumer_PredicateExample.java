@@ -10,7 +10,7 @@ import java.util.function.Consumer;
 import java.util.function.Predicate;
 
 public class Consumer_PredicateExample {
-    Predicate<Student> p1 = s -> s.getGpa() > 3.8;
+    public static Predicate<Student> p1 = s -> s.getGpa() > 3.8;
     Predicate<Student> p2 = s -> s.getGradeLevel() > 3;
     BiConsumer<String, List<String>> bc = (name, activities) -> System.out.println(name + " does " + activities);
 
