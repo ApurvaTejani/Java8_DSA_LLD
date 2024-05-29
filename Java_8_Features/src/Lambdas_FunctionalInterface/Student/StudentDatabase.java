@@ -2,8 +2,14 @@ package Lambdas_FunctionalInterface.Student;
 
 import java.util.Arrays;
 import java.util.List;
+import java.util.function.Supplier;
 
 public class StudentDatabase {
+
+    public static Supplier<Student> sup = () -> {
+        return new Student("Apurva", 2, 3.6, "male", Arrays.asList("Swimming", "Gymming", "Cricket"));
+    };
+
     public static List<Student> getAllStudents() {
         Student s1 = new Student("Apurva", 2, 3.6, "male", Arrays.asList("Swimming", "Gymming", "Cricket"));
         Student s2 = new Student("Harish", 2, 3.8, "male", Arrays.asList("Cycling", "Gymming", "Swimming"));

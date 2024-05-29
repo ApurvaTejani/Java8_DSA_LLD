@@ -1,6 +1,7 @@
 package Lambdas_FunctionalInterface.Student;
 
 import java.util.List;
+import java.util.function.Supplier;
 
 public class Student {
     private String name;
@@ -16,6 +17,7 @@ public class Student {
         this.gender = gender;
         this.activities = activities;
     }
+
 
     public String getName() {
         return name;
@@ -51,6 +53,10 @@ public class Student {
 
     public List<String> getActivities() {
         return activities;
+    }
+
+    public void printActivities() {
+        System.out.println(activities);
     }
 
     public void setActivities(List<String> activities) {
