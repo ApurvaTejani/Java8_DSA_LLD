@@ -7,7 +7,7 @@ import java.util.function.Supplier;
 public class StudentDatabase {
 
     public static Supplier<Student> sup = () -> {
-        return new Student("Apurva", 2, 3.6, "male", Arrays.asList("Swimming", "Gymming", "Cricket"), noOfBooks);
+        return new Student("Apurva", 2, 3.6, "male", Arrays.asList("Swimming", "Gymming", "Cricket"), 11);
     };
 
     public static List<Student> getAllStudents() {
