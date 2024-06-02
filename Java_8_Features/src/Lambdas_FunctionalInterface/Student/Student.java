@@ -1,7 +1,6 @@
 package Lambdas_FunctionalInterface.Student;
 
 import java.util.List;
-import java.util.function.Supplier;
 
 public class Student {
     private String name;
@@ -10,12 +9,35 @@ public class Student {
     private String gender;
     private List<String> activities;
 
-    public Student(String name, int gradeLevel, double gpa, String gender, List<String> activities) {
+    @Override
+    public String toString() {
+        return "Student{" +
+                "name='" + name + '\'' +
+                ", gradeLevel=" + gradeLevel +
+                ", gpa=" + gpa +
+                ", gender='" + gender + '\'' +
+                ", activities=" + activities +
+                ", noOfBooks=" + noOfBooks +
+                '}';
+    }
+
+    private int noOfBooks;
+
+    public int getNoOfBooks() {
+        return noOfBooks;
+    }
+
+    public void setNoOfBooks(int noOfBooks) {
+        this.noOfBooks = noOfBooks;
+    }
+
+    public Student(String name, int gradeLevel, double gpa, String gender, List<String> activities, int noOfBooks) {
         this.name = name;
         this.gradeLevel = gradeLevel;
         this.gpa = gpa;
         this.gender = gender;
         this.activities = activities;
+        this.noOfBooks = noOfBooks;
     }
 
     public Student() {
@@ -71,14 +93,4 @@ public class Student {
         this.activities = activities;
     }
 
-    @Override
-    public String toString() {
-        return "Student{" +
-                "name='" + name + '\'' +
-                ", gradeLevel=" + gradeLevel +
-                ", gpa=" + gpa +
-                ", gender='" + gender + '\'' +
-                ", activities=" + activities +
-                '}';
-    }
 }
