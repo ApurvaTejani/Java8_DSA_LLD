@@ -15,21 +15,26 @@
 //        output string: Infosys
 public class RepeatChar_infosys {
     public static void main(String[] args) {
-        System.out.println(characterRepeatCount("Infosys"));
+        System.out.println(characterRepeatCount("Football"));
     }
 
     public static String characterRepeatCount(String str) {
         int count = 1;
         char[] letters = str.toCharArray();
         for (int i = 0; i < letters.length - 1; i++) {
-           
-            if (letters[i] == letters[i + 1]) {
-                count++;
-                letters[i] = (char) (count + '0');
+            for (int j = i; j < letters.length - 1; j++) {
+                if (letters[j] == letters[j + 1]) {
+                    count++;
+
+                }
+                break;
             }
-            count = 1;
+
         }
+        System.out.println(count);
         String newStr = new String(letters);
         return newStr;
     }
+
 }
+
