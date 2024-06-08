@@ -9,7 +9,7 @@ package Logic_Level_2;
 //        makeBricks(3, 2, 10) → true
 public class MakeBrick {
     public static void main(String[] args) {
-        System.out.println(makeBricks(3, 2, ));
+        System.out.println(makeBricks(3, 2, 5));
     }
 
     public static boolean makeBricks(int small, int large, int goal) {

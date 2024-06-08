@@ -28,11 +28,13 @@ public class JoiningExample {
                 .collect(Collectors.joining("-", "[", "]"));
     }
 
+
     public static void main(String[] args) {
 
         System.out.println(getAllNames(studList));
         System.out.println(getNamesWithDelimiter(studList));
         System.out.println(getNamesWithPrefixAndSuffixAndDelimiter(studList));
+
     }
 
 }
