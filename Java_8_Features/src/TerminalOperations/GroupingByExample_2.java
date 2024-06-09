@@ -20,6 +20,12 @@ public class GroupingByExample_2 {
                 .collect(groupingBy(Student::getGender, summingInt(Student::getNoOfBooks)));
         System.out.println("No of Books each Gender i.e Male Female Holds : " + GenderMapBooks);
 
+        Map<Integer, Map<String, List<Student>>> doubleMap =
+                studList.stream()
+                        .collect(groupingBy(Student::getGradeLevel, groupingBy(s -> s.getGpa() > 3.8 ? "Smart" : "Average")));
+
+        System.out.println(doubleMap);
+
 
     }
 }
