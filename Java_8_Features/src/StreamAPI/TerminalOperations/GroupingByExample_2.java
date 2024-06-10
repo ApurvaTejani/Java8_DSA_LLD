@@ -1,4 +1,4 @@
-package TerminalOperations;
+package StreamAPI.TerminalOperations;
 
 import Lambdas_FunctionalInterface.Student.Student;
 import Lambdas_FunctionalInterface.Student.StudentDatabase;

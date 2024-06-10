@@ -1,4 +1,4 @@
-package TerminalOperations;
+package StreamAPI.TerminalOperations;
 
 import Lambdas_FunctionalInterface.Student.Student;
 import Lambdas_FunctionalInterface.Student.StudentDatabase;
@@ -22,7 +22,7 @@ public class MaxByMinBYExample {
         Optional<Student> minimumGPA2 = studList.stream()
                 .reduce((s1, s2) -> s1.getGpa() < s2.getGpa() ? s1 : s2);
 
-        
+
         System.out.println("Using minBy GPA of Students using Collect Method " + minimumGPA1);
         System.out.println("Minimum GPA of Student using reduce Method " + minimumGPA2);
 
