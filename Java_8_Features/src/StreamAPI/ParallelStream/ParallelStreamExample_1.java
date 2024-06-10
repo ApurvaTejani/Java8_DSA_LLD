@@ -17,6 +17,7 @@ public class ParallelStreamExample_1 {
     }
 
     public static void main(String[] args) {
+        System.out.println("No of Processors " + Runtime.getRuntime().availableProcessors());
         System.out.println("Time Taken by Single Sequential Stream to execute " + checkPerformance(ParallelStreamExample_1::sumSequential, 200));// If I increase No of calls Single Stream Performances Better
         System.out.println("Time Taken by Parallel Stream to execute " + checkPerformance(ParallelStreamExample_1::sumParallel, 200));
 
