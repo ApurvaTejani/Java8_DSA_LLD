@@ -9,7 +9,7 @@ public class SequentialBetterExample {
         long start = System.currentTimeMillis();
         int sum = il.stream().reduce(0, (a, b) -> a + b);
         long end = System.currentTimeMillis();
-        System.out.println("Time Taken of summing using Sequential Stream " + (end - start));
+        System.out.println("Time Taken of summing using Sequential Stream " + (end - start) * 1000 + " microSec");
         return sum;
     }
 
@@ -17,13 +17,13 @@ public class SequentialBetterExample {
         long start = System.currentTimeMillis();
         int sum = il.stream().parallel().reduce(0, (a, b) -> a + b);
         long end = System.currentTimeMillis();
-        System.out.println("Time Taken of summing using Parallel Stream " + (end - start));
+        System.out.println("Time Taken of summing using Parallel Stream " + (end - start) * 1000 + " microSec");
         return sum;
     }
 
     public static void main(String[] args) {
         List<Integer> il =
-                IntStream.rangeClosed(1, 100000).boxed().collect(Collectors.toList());
+                IntStream.rangeClosed(1, 100).boxed().collect(Collectors.toList());
         sumUsingSequential(il);
         sumUsingParallel(il);
     }
