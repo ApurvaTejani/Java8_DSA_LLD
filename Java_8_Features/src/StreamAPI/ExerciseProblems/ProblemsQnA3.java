@@ -2,10 +2,12 @@ package StreamAPI.ExerciseProblems;
 
 //Q9 Verify that all students in grade level 4 have read more than 30 books and find the total number of books read by these students.
 // Q10 Find any student who is involved in "Gymming" and has a GPA of at least 3.8, and return their name.
+// Q 11 Retrieve the names of the top 3 students with the highest GPA.
 
 import Lambdas_FunctionalInterface.Student.Student;
 import Lambdas_FunctionalInterface.Student.StudentDatabase;
 
+import java.util.Comparator;
 import java.util.List;
 import java.util.stream.Collectors;
 
@@ -31,6 +33,17 @@ public class ProblemsQnA3 {
                         .map(Student::getName)
                         .collect(Collectors.toList());
         System.out.println(fileredNames);
+
+        System.out.println("=".repeat(90));
+
+
+        List<String> names = studList.stream()
+                .sorted(Comparator.comparing(Student::getGpa).reversed())
+                .limit(3).map(Student::getName)
+                .collect(Collectors.toList());
+
+        System.out.println(names);
+
 
     }
 }
