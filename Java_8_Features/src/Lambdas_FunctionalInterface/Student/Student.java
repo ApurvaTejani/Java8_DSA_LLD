@@ -1,6 +1,10 @@
 package Lambdas_FunctionalInterface.Student;
 
+import StreamAPI.Optional.Bike;
+
 import java.util.List;
+import java.util.Optional;
+;
 
 public class Student {
     private String name;
@@ -8,6 +12,16 @@ public class Student {
     private double gpa;
     private String gender;
     private List<String> activities;
+
+    private Optional<Bike> bk = Optional.empty();
+
+    public Optional<Bike> getBk() {
+        return bk;
+    }
+
+    public void setBk(Optional<Bike> bk) {
+        this.bk = bk;
+    }
 
     @Override
     public String toString() {
@@ -31,6 +45,16 @@ public class Student {
         this.noOfBooks = noOfBooks;
     }
 
+    public Student(String name, int gradeLevel, double gpa, String gender, List<String> activities, int noOfBooks, Optional<Bike> bk) {
+        this.name = name;
+        this.gradeLevel = gradeLevel;
+        this.gpa = gpa;
+        this.gender = gender;
+        this.activities = activities;
+        this.noOfBooks = noOfBooks;
+        this.bk = bk;
+    }
+
     public Student(String name, int gradeLevel, double gpa, String gender, List<String> activities, int noOfBooks) {
         this.name = name;
         this.gradeLevel = gradeLevel;
@@ -38,6 +62,7 @@ public class Student {
         this.gender = gender;
         this.activities = activities;
         this.noOfBooks = noOfBooks;
+
     }
 
     public Student() {

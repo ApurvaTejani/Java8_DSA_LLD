@@ -1,14 +1,23 @@
 package Lambdas_FunctionalInterface.Student;
 
+import StreamAPI.Optional.Bike;
+
+import javax.swing.text.html.Option;
 import java.util.Arrays;
 import java.util.List;
+import java.util.Optional;
 import java.util.function.Supplier;
 
 public class StudentDatabase {
 
     public static Supplier<Student> sup = () -> {
+        Bike b = new Bike();
+        b.setName("Apache");
+        b.setModelNo(160);
+        Optional<Bike> bk = Optional.ofNullable(b);
+
         return new Student("Apurva", 2, 3.6, "male", Arrays.asList("Swimming", "Gymming", "Cricket"),
-                11);
+                11, bk);
 //        return null;
     };
 
