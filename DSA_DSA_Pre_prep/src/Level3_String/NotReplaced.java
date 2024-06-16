@@ -2,6 +2,7 @@ package Level3_String;
 
 import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.Objects;
 
 //Given a string, return a string where every appearance of the lowercase word "is" has been replaced with "is not". The word "is" should not be immediately preceeded or followed by a letter -- so for example the "is" in "this" does not count. (Note: Character.isLetter(char) tests if a char is a letter.)
 //
@@ -13,28 +14,32 @@ import java.util.Arrays;
 // Issue with the logic
 public class NotReplaced {
     public static void main(String[] args) {
-        System.out.println(notReplacedMethod("This is right"));
+        System.out.println(notReplacedMethod("is"));
     }
 
     public static String notReplacedMethod(String str) {
-
+        if (str.equals("is"))
+            return str.concat(" not");
         char[] letters = str.toCharArray();
-        ArrayList<Character> al = new ArrayList<>();
-        StringBuilder sb = new StringBuilder();
-        for (int i = 0; i < letters.length - 2; i++) {
+
+        StringBuilder sb = new StringBuilder(str);
+        for (int i = 0; i < letters.length; i++) {
             if (letters[i] == 'i' && letters[i + 1] == 's') {
-                if (i == 0 && !Character.isLetter(letters[i + 2])) {
-                    str = str.replace("is", "is not");
-                } else if (i == str.length() - 1 && !Character.isLetter(letters[i - 1])) {
-                    str = str.replace("is", "is not");
+                if (i == 0) {
+                    if (!Character.isLetter(letters[i + 2]))
+                        sb.replace(i, i + 2, "is not");
+
+                } else if (i == str.length() - 2) {
+                    if (!Character.isLetter(letters[i - 1]))
+                        sb.append(" not");
+
                 } else if (!Character.isLetter(letters[i + 2]) && !Character.isLetter(letters[i - 1])) {
-                    str = str.replaceFirst("is", "is not");
+                    sb.replace(i, i + 2, "is not");
+
                 }
-            } else if (letters[i] != 'i' || letters[i] != 's') {
-                sb.append(letters[i]);
             }
         }
-        System.out.println(sb);
-        return str;
+
+        return new String(sb);
     }
 }
