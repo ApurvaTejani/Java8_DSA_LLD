@@ -24,15 +24,15 @@ public class Client {
         long memoryBefore = runtime.totalMemory() - runtime.freeMemory();
         System.out.println("Memory before creating objects: " + bytesToMegabytes(memoryBefore) + " MB");
 
-        // with use of register and flyweight creating 60k player consumes less memory
-//        for (int i = 0; i < 60000; i++) {
-//            players[i] = new Player(p, 100, 540, 4, register.get("DumbPlayer"));
-//        }
+//         with use of register and flyweight creating 60k player consumes less memory
+        for (int i = 0; i < 60000; i++) {
+            players[i] = new Player(p, 100, 540, 4, register.get("DumbPlayer"));
+        }
 
         // Without Flyweight, you will create 60k player consumes more as 60k image objects are created
-        for (int i = 0; i < 60000; i++) {
-            players[i] = new Player(p, 100, 540, 4, new PlayerFlyWeight(10, 10, dumbPlayerAvatar));
-        }
+//        for (int i = 0; i < 60000; i++) {
+//            players[i] = new Player(p, 100, 540, 4, new PlayerFlyWeight(10, 10, dumbPlayerAvatar));
+//        }
         // Measure memory usage after creating objects
         runtime.gc(); // Suggesting the JVM to run garbage collection
         long memoryAfter = runtime.totalMemory() - runtime.freeMemory();
