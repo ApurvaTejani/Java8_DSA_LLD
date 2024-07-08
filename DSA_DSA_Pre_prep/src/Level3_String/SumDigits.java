@@ -10,17 +10,20 @@ package Level3_String;
 public class SumDigits {
 
     public static void main(String[] args) {
-
+        System.out.println(sumDigits("Chocolate"));
     }
 
     public static int sumDigits(String str) {
         char[] letters = str.toCharArray();
         int sum = 0;
+        int number = 0;
         for (int i = 0; i < letters.length; i++) {
-            if (Character.isDigit(letters[i])) {
-
+            if (Character.isDigit(str.charAt(i))) {
+                number = Integer.parseInt(Character.toString(str.charAt(i)));
+                sum = sum + number;
             }
         }
+        return sum;
 
     }
 }
