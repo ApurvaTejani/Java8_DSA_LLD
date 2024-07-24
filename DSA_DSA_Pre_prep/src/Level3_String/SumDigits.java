@@ -23,7 +23,7 @@ public class SumDigits {
     }
 
     public static void main(String[] args) {
-        System.out.println(sumDigits("Chocolate"));
+        System.out.println(sumDigits("fr3321hk"));
     }
 
 
