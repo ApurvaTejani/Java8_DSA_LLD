@@ -8,11 +8,6 @@ package Level3_String;
 //        sumDigits("Chocolate") → 0
 
 public class SumDigits {
-
-    public static void main(String[] args) {
-        System.out.println(sumDigits("Chocolate"));
-    }
-
     public static int sumDigits(String str) {
         char[] letters = str.toCharArray();
         int sum = 0;
@@ -26,4 +21,10 @@ public class SumDigits {
         return sum;
 
     }
+
+    public static void main(String[] args) {
+        System.out.println(sumDigits("Chocolate"));
+    }
+
+
 }
