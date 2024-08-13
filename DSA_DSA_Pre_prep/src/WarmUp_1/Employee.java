@@ -5,7 +5,11 @@ public class Employee {
     private String name;
     private String address;
 
-    public static void fun() {
+    public static void funStatic() {
+        System.out.println("In Parent Class - Employee");
+    }
+
+    public void fun() {
         System.out.println("In Parent Class - Employee");
     }
 }
