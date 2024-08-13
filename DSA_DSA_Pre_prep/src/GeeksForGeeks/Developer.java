@@ -1,4 +1,4 @@
-package WarmUp_1;
+package GeeksForGeeks;
 
 public class Developer extends Employee {
     private int durationOfWork;

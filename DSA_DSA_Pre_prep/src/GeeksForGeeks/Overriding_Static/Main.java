@@ -1,7 +1,7 @@
-package WarmUp_1.Overriding_Static;
+package GeeksForGeeks.Overriding_Static;
 
-import WarmUp_1.Developer;
-import WarmUp_1.Employee;
+import GeeksForGeeks.Developer;
+import GeeksForGeeks.Employee;
 
 class Main {
 

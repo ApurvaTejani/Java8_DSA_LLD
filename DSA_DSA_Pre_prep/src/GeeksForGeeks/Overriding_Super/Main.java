@@ -1,7 +1,7 @@
-package WarmUp_1.Overriding_Super;
+package GeeksForGeeks.Overriding_Super;
 
-import WarmUp_1.Developer;
-import WarmUp_1.Employee;
+import GeeksForGeeks.Developer;
+import GeeksForGeeks.Employee;
 
 public class Main {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package WarmUp_1;
+package GeeksForGeeks;
 
 public class Test {
     private static int countTest = 0;

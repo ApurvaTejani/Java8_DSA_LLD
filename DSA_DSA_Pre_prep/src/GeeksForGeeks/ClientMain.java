@@ -1,4 +1,4 @@
-package WarmUp_1;
+package GeeksForGeeks;
 
 public class ClientMain {
     public static void main(String[] args) {
