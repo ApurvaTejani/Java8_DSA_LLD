@@ -1,19 +1,12 @@
 package GeeksForGeeks;
 
 public class Test {
-    private static int countTest = 0;
-    private String name;
-
-    public Test(String name) {
-        this.name = name;
-        countTest++;
+    public static void main(String[] args) {
+        int temp = 40;
+        if (temp == 30 && temp / 0 == 4) {
+            System.out.println("hello");
+        }
     }
 
-    public Test() {
-        countTest++;
-    }
-
-    public static int getCountTest() {
-        return countTest;
-    }
 }
+
