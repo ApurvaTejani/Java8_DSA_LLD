@@ -11,7 +11,10 @@ public class PrimeRemove {
             al.add(sc.nextInt());
         }
         Iterator<Integer> il = removePrime(al);
-        System.out.println(il);
+        while (il.hasNext()) {
+            int x = il.next();
+            System.out.println(x);
+        }
 
     }
 
@@ -27,7 +30,7 @@ public class PrimeRemove {
 
     public static boolean isPrime(int N) {
         int count = 0;
-        for (int i = 1; i < N; i++) {
+        for (int i = 1; i <= N; i++) {
             if ((N % i) == 0)
                 count++;
         }
