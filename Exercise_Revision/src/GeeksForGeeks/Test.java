@@ -21,6 +21,7 @@ public class Test {
 
         ArrayList il2 = new ArrayList<>();
 
+        //Test
         System.out.println(il1 == il2);
 
     }
