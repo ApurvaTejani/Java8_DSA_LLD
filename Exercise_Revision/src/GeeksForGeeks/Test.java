@@ -9,31 +9,21 @@ public class Test {
 
 
     public static void main(String[] args) {
-        int x = 1;
-        int y = 3;
-        int[] arr = {4, 2, 31, 3};
-        System.out.println(method(new Integer[]{1, 2, 3, 4, 5}, 5));
-        List il1 = new ArrayList<>();
-        il1.add(1);
-        il1.add(2);
-
-        System.out.println(il1);
-
-        ArrayList il2 = new ArrayList<>();
-
-        //Test
-        System.out.println(il1 == il2);
+        byte b = 127;
+        System.out.println((byte) (b + 1));
+        String s = null;
+        Integer i1 = 10;
+        Integer i2 = 10;
+        System.out.println(i1);
+        System.out.println(i2.getClass());
+        if (i1 == i2) {
+            System.out.println("Same");
+        }
 
     }
 
     public static <T> int method(T arr[], T x) {
-        int res = 0;
-        for (T e : arr) {
-            if (e == x) {
-                res++;
-            }
-        }
-        return res;
+        return 0;
     }
 }
 
